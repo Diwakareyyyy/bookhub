@@ -69,7 +69,6 @@ pynput==1.8.1
 pyparsing==3.2.3
 PyPDF2==3.0.1
 pyperclip==1.9.0
-pypiwin32==223
 PyRect==0.2.0
 PyScreeze==1.0.1
 python-dateutil==2.9.0.post0
@@ -79,7 +78,6 @@ pyttsx3==2.98
 pytweening==1.2.0
 pytz==2025.2
 pywhatkit==5.4
-pywin32==310
 PyYAML==6.0.2
 referencing==0.36.2
 regex==2024.11.6
