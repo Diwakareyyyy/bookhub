@@ -2,6 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import os
 import sqlite3
 from werkzeug.utils import secure_filename
+try:
+    import pyaudio
+except ImportError:
+    pyaudio = None
 
 app = Flask(__name__)
 app.secret_key = "secretkey"
